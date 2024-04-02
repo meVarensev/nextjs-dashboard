@@ -6,6 +6,7 @@
         "seed": "node -r dotenv/config ./scripts/seed.js",
         "prettier": "prettier --write --ignore-unknown .",
         "prettier:check": "prettier --check --ignore-unknown .",
+        "lint": "next lint",
         "start": "next start"
     },
     "dependencies": {
